@@ -1,0 +1,40 @@
+<!--
+ This application was developed as a collaborative effort for the benefit of all parks and gardens.
+ Nathan Strout, Developer and Director of Spatial Technology, University of Redlands.
+ Copyright 2015 Michele Dunham
+ 
+ Released under the GNU General Public License.  View full license text in the LICENSE.TXT file at the ROOT of
+ this GitHub repository.  View the short license text and DISCLAIMER in the README.TXT file located at the
+ ROOT of this GitHub repository.
+ -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.venturabotanicalgardensadhoc.VBG" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>VBG</name>
+    <description>Ventura Botanical Gardens Story Trail</description>
+    <author email="redlandsinstitute@spatial.redlands.edu" href="www.spatial.redlands.edu/redlandsinstitute">Redlands Institute</author>
+    <content src="Main.html" />
+    <access origin="*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+    </feature>
+    <!--<feature name="SplashScreen">
+     <param name="ios-package" value="CDVSplashScreen"/>
+     <param name="onload" value="true" />
+     </feature>-->
+    <!--<plugin name="SplashScreen" value="CDVSplashScreen" />-->
+    <plugin name="Geolocation" value="CDVLocation" />
+    
+</widget>

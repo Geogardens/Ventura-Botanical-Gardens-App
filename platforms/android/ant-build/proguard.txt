@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:5
+-keep class com.venturabotanicalgardens.VBG.VBG { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
+-keep class de.appplant.cordova.plugin.localnotification.Receiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class de.appplant.cordova.plugin.localnotification.ReceiverActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class de.appplant.cordova.plugin.localnotification.Restore { <init>(...); }
+

@@ -1,0 +1,40 @@
+<!--
+ This work for hire program was developed as a collaborative effort for the benefit of all parks and gardens. Copyright 2015 Michele Dunham.
+
+Nathan Strout, Developer and Director of Spatial Technology, University of Redlands.
+ 
+ Released under the GNU General Public License.  View full license text in the LICENSE.TXT file at the ROOT of
+ this GitHub repository.  View the short license text and DISCLAIMER in the README.TXT file located at the
+ ROOT of this GitHub repository.
+ -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.venturabotanicalgardens.VBG" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>VBG</name>
+    <description>
+        Ventura Botanical Gardens tour app
+    </description>
+    <author email="redlandsinstitute@spatial.redlands.edu" href="http://www.redlands.edu">
+        The Redlands Institute
+    </author>
+    <content src="Main.html" />
+    <access origin="*" />
+    
+  <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+  <preference name="SplashScreen" value="screen" />
+<preference name="SplashScreenDelay" value="10000" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="2" />
+	<platform name="android">
+              <icon src="res/android/vbg_36.png" density="ldpi" />
+              <icon src="res/android/vbg_48.png" density="mdpi" />
+              <icon src="res/android/vbg_72.png" density="hdpi" />
+              <icon src="res/android/vbg_96.png" density="xhdpi" />
+     </platform>
+     
+</widget>
+ 

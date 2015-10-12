@@ -1,0 +1,62 @@
+body {
+	/* Change Gradient colors here by substituting the rgba numbers, ellipse cannot be rotated */
+	background: -webkit-radial-gradient(ellipse, rgba(194,190,134,1)0%, rgba(241,241,216,1)) 100%; /* Safari */
+	/*background: -o-radial-gradient(ellipse, rgba(228,234,188,1) 50%, rgba(169,195,0,1)); /* Opera 11.1 to 12.0 */
+	/*background: -moz-radial-gradient(ellipse, rgba(228,234,188,1) 50%, rgba(169,195,0,1)); /* Firefox 3.6 to 15 */
+	/*background: radial-gradient(ellipse, rgba(228,234,188,1) 50%, rgba(169,195,0,1)); /* Standard syntax */
+}
+
+nav {
+	background: #919353; /* Navigation bar background */
+	color: white;
+	box-shadow: 0px 2px 10px #888888;
+}
+
+
+/*List of trails background*/
+#ul_Trails {
+
+	background: rgba(255, 255, 255, 0) !important;
+	border-bottom: none !important;
+}
+
+/*Stylistic changes to the lists*/
+.ListItem {
+	background: rgba(255, 255, 255, 0) !important;
+
+}
+
+.ListItem > a {
+	font-size: 16px !important;
+	color: #404040;
+}
+
+.ListItem > a > p {
+	color: #404040 !important;
+}
+
+.list {
+	/*border-bottom: groove 3px rgba(255, 255, 255, 1) !important;*/
+}
+
+/*Trail stops on tour page*/
+#ul_TrailStops3 {
+	background: rgba(255, 255, 255, 0) !important;
+}
+
+/*Sponsor loading page progress bar*/
+.ui-progressbar-value {
+	background-image: url('../images/mapButtons/loader512.gif') !important;
+	max-height: auto;
+	transform: scale(0.2,0.2);
+	-ms-transform: scale(0.2,0.2); /* IE 9 */
+	-webkit-transform: scale(0.2,0.2); /* Safari and Chrome */
+}
+#PhotoListUL {
+	background: none;
+}
+
+#TourName {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+

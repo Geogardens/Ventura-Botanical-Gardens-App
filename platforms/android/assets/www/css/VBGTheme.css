@@ -1,0 +1,52 @@
+body {
+	/* Change Gradient colors here by substituting the rgba numbers, ellipse cannot be rotated */
+	background: -webkit-radial-gradient(ellipse, rgba(228,234,188,1) 50%, rgba(169,195,0,1)); /* Safari */
+	background: -o-radial-gradient(ellipse, rgba(228,234,188,1) 50%, rgba(169,195,0,1)); /* Opera 11.1 to 12.0 */
+	background: -moz-radial-gradient(ellipse, rgba(228,234,188,1) 50%, rgba(169,195,0,1)); /* Firefox 3.6 to 15 */
+	background: radial-gradient(ellipse, rgba(228,234,188,1) 50%, rgba(169,195,0,1)); /* Standard syntax */
+}
+
+nav {
+	background: #A6A251;
+	color: white;
+}
+.Tapped {
+	background-color: rgba(35,39,37, .85) !important;
+}
+.Tapped:hover {
+	background-color: rgba(35,39,37, .85) !important;
+}
+
+/*List of trails background*/
+#ul_Trails {
+
+	background: rgba(255, 255, 255, 0) !important;
+}
+
+/*Stylistic changes to the lists*/
+.ListItem {
+	background: rgba(255, 255, 255, 0) !important;
+	border-bottom: inset 2px rgba(0, 0, 0, 0.43);
+}
+
+.ListItem > a {
+	font-size: 16px !important;
+	color: rgb(34,34,34);
+}
+
+.ListItem > a > p {
+	color: #535353 !important;
+}
+
+/*Trail stops on tour page*/
+#ul_TrailStops3 {
+	background: rgba(255, 255, 255, 0) !important;
+}
+
+/*Sponsor loading page progress bar*/
+.ui-progressbar-value {
+	background-image: url('images/progressBarAnimated.gif') !important;
+}
+#PhotoListUL {
+	background: none;
+}
